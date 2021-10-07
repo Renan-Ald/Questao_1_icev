@@ -1,0 +1,28 @@
+<html> 
+<head> 
+<title>.. RNA INPUT ..:</title> 
+<h1>RNA INPUT</h1> 
+<h2>Informe o RNA:</h2> 
+<form method=post name="formulario" action="Rna2.php">   
+    <input type="text" name="numerotelefone">   
+    <input type="submit" name="rna" value="Enviar"> 
+</form> 
+
+<div class="col-md-12 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+    <div id="top5-caixa">
+      <div class="colocacao">
+      <?php echo $listar->colocacao; ?>
+      </div>
+      <div class="musica-cantor">
+        <p class="cantor"><?php echo $listar->cantor; ?></p>
+        <p class="musica"><?php echo $listar->titulo; ?></p>
+      </div>
+      
+
+    </div>
+  </div>
+
+
+
+</head> 
+</html>

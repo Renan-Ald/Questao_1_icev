@@ -1,0 +1,11 @@
+<html> 
+<head> 
+<title>.. RNA INPUT ..:</title> 
+<h1>RNA INPUT</h1> 
+<h2>Informe o RNA:</h2> 
+<form method=post name="formulario" action="Rna2.php">   
+    <input type="text" name="numerotelefone">   
+    <input type="submit" name="rna" value="Enviar"> 
+</form> 
+</head> 
+</html>

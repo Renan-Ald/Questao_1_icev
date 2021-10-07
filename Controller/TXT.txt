@@ -1,0 +1,12 @@
+vetor = "O"," O , I" ,"I"
+
+v = O I
+
+vetor = v
+
+v.append(vetor)
+v = O I
+
+VEGTOR = V
+
+O I O I

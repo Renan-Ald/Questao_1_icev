@@ -1,0 +1,15 @@
+Ultilizei o wampserver 
+E o diretorio é
+http://rna.local/Controller/Rna2.php
+
+Config::
+D:\wamp64\bin\apache\apache2.4.46\conf\extra\httpd-vhost
+<VirtualHost *:80>
+	ServerName Rna.local
+	DocumentRoot "d:/wamp64/www/Rna"
+	<Directory  "d:/wamp64/www/Rna">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
